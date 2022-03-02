@@ -394,16 +394,16 @@ def download_video(message, video):
 
     if "magnetoscript" in link and ("brightcove" in link or len(link.split("/")[-1]) == 13):
         vid_id = link[-13:]
-        link = f"https://player.deshdeepak.me/{vid_id}"
+        link = f"https://tech9light.tech/{vid_id}"
     elif "magnetoscript" in link and "jwp" in link:
         vid_id = link[-8:]
-        link = f"https://player.deshdeepak.me/{vid_id}"
+        link = f"https://tech9light.tech/vid_id}"
     elif "jwplayer" in link and link.endswith('.m3u8'):
         vid_id = link.removesuffix(".m3u8").split("/")[-1]
-        link = f"https://player.deshdeepak.me/{vid_id}"
+        link = f"https://tech9light.tech/{vid_id}"
     elif "jwplayer" in link and link.endswith('.mp4'):
         vid_id = link.removesuffix('.mp4').split('/')[-1].split('-')[0]
-        link = f"https://player.deshdeepak.me/{vid_id}"
+        link = f"https://tech9light.tech/{vid_id}"
 
     if not vid_format.isnumeric():
         title = vid_format
