@@ -21,7 +21,7 @@ Download videos from various websites using this telegram bot
 ```
 
 ### Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DaruaraFriends/VideoDownloaderBot/blob/main/VideoDownloaderBot.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arunsingh-creator/VideoDownloaderBot/blob/main/VideoDownloaderBot.ipynb)
 
 ### Heroku
 
