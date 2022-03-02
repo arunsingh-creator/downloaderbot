@@ -1,7 +1,7 @@
 {
     "name":"VideoDownloaderBot",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/DaruaraFriends/VideoDownloaderBot",
+    "repository":"https://github.com/arunsingh/downloaderBot",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
@@ -16,36 +16,38 @@
     "env": {
         "API_ID":{
             "description": "Get your telegram API ID from https://my.telegram.org",
-            "value":""
+            "value":"6590520"
         },
         "API_HASH":{
             "description":"Get your telegram API HASH from https://my.telegram.org",
-		    "value":""
+		    "value":"7f31db7e8cd1c0959c187e2651935c00"
         },
         "BOT_TOKEN":{
             "description":"Get from BotFather",
-            "value":""
+            "value":"5165987888:AAGp6wGxNFW4cQ1Hp3gRW1u34GV259px5eY"
         },
         "AUTH_USERS":{
             "description":"Users who can use",
-            "value":""
+            "value":"5211832457"
         },
         "GROUPS":{
             "description":"Groups where to work",
-            "value":""
+            "value":"",
+            "required":false
         },
-        "HTML_GROUPS":{
-            "description":"Groups where to work for html",
-            "value":""
+        "JSON_GROUPS":{
+            "description":"Groups where to work for json",
+            "value":"",
+            "required":false
         },
         "THUMB":{
             "description":"Thumbnail link. Leave empty for using video thumbnail.",
-            "value":"thumb.jpg",
+            "value":"",
             "required":false
         },
         "NAME":{
             "description":"Name to send",
-            "value":"TheDarkPrince"
+            "value":"Devil Killer"
         }
     }
 }
