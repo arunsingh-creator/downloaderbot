@@ -397,7 +397,7 @@ def download_video(message, video):
         link = f"https://tech9light.tech/{vid_id}"
     elif "magnetoscript" in link and "jwp" in link:
         vid_id = link[-8:]
-        link = f"https://tech9light.tech/vid_id}"
+        link = f"https://tech9light.tech/{vid_id}"
     elif "jwplayer" in link and link.endswith('.m3u8'):
         vid_id = link.removesuffix(".m3u8").split("/")[-1]
         link = f"https://tech9light.tech/{vid_id}"
