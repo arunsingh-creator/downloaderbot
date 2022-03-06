@@ -358,7 +358,7 @@ async def download_html(bot, msg):
         (filters.command("download_html") & ~filters.group)
         | filters.regex(f"^/download_html@{BOT}")
     )
-    & (filters.chat(sudo_html_groups) | filters.user(sudo_users))
+    &  (filters.user(sudo_users))
 )
 async def download_html_info(bot, message):
     await message.reply(
