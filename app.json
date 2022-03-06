@@ -30,16 +30,6 @@
             "description":"Users who can use",
             "value":"5211832457"
         },
-        "GROUPS":{
-            "description":"Groups where to work",
-            "value":"",
-            "required":false
-        },
-        "JSON_GROUPS":{
-            "description":"Groups where to work for json",
-            "value":"",
-            "required":false
-        },
         "THUMB":{
             "description":"Thumbnail link. Leave empty for using video thumbnail.",
             "value":"",
