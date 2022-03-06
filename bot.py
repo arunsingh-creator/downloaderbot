@@ -532,7 +532,7 @@ async def choose_video_format(bot, query):
         (filters.command("download_link") & ~filters.group)
         | filters.regex(f"^/download_link@{BOT}")
     )
-    & (filters.chat(sudo_groups) | filters.user(sudo_users))
+    & (filters.user(sudo_users))
 )
 async def download_link(bot, message):
     user = message.from_user.id if message.from_user is not None else None
